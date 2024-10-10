@@ -28,7 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-CSRF_TRUSTED_ORIGINS = ['https://project-yutu-backend.onrender.com']
+# CSRF_TRUSTED_ORIGINS = ['https://project-yutu-backend.onrender.com']
 
 
 # Application definition
