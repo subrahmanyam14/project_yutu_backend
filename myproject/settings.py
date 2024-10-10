@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-r@$fb2)!2bsy^f2c8s7nnhuir1laj1)d!h^i2jv10f^k83)&$*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
+
+ALLOWED_HOSTS = ['project-yutu-backend.onrender.com', 'localhost', '127.0.0.1']
+
+CSRF_TRUSTED_ORIGINS = ['https://project-yutu-backend.onrender.com']
 
 
 # Application definition
