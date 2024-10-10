@@ -31,3 +31,10 @@ def translate_text(request):
     else:
         return JsonResponse({"error": "POST method required"}, status=405)
 
+
+@csrf_exempt
+def hello(request):
+    if request.method == 'GET':
+        return JsonResponse({"message": "Hello, Django!"}, status=200)
+    else:
+        return JsonResponse({"error": "GET method required"}, status=405)
